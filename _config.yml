@@ -1,5 +1,6 @@
 title:            Balzac
 tagline:          A beautiful theme.
+<<<<<<< HEAD
 description:      Describe your website.
 canonical: http://jekyll.gtat.me
 
@@ -24,6 +25,24 @@ tools:
 # Open Graph customization
 opengraph:
   locale:           en_US
+=======
+description:      # Describe your website.
+#Comment out url when working locally to resolve base urls correctly
+url: # ex: http://jekyll.gtat.me
+
+# Owner/author information
+owner:
+  name:           #Your Name
+  avatar:         #  your avatar, like from Twitter. In case you want to use it somewhere.
+  bio:            # your bio, like from Twitter. In case you want to use it somewhere. 
+  email:          #your email address
+  twitter:        # your twitter username        
+  github:         # your github username        
+  instagram:      # your insta username      
+  dribbble:       # your dribbb username 
+  disqus:         # your twitter username 
+  
+>>>>>>> FETCH_HEAD
 
 # Links to include in top navigation
 # For external links add external: true
@@ -35,6 +54,9 @@ links:
     external: true
   - title: Cole Who?
     url: http://coletownsend.com
+    external: true
+  - title: RSS
+    url: /feed.xml
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
